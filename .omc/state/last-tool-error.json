@@ -1,7 +1,0 @@
-{
-  "tool_name": "mcp__claude-in-chrome__javascript_tool",
-  "tool_input_preview": "{\"action\":\"javascript_exec\",\"tabId\":1335024330,\"text\":\"await new Promise(r => setTimeout(r, 3000));\\nwindow.__draftInst = (ed) => { const fk = Object.keys(ed).find(k => k.startsWith('__reactFiber$'));...",
-  "error": "JavaScript execution error: TypeError: Cannot read properties of null (reading 'props')\n    at <anonymous>:4:86\n    at Array.map (<anonymous>)\n    at <anonymous>:4:17",
-  "timestamp": "2026-11-18T13:43:29.678Z",
-  "retry_count": 2
-}
